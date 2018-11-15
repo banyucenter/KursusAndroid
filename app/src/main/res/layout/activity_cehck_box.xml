@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".CehckBoxActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah Favorit" />
+
+    <CheckBox
+        android:id="@+id/cbAlgortima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Algoritma" />
+
+    <CheckBox
+        android:id="@+id/cbAkuntansi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akuntansi" />
+
+    <CheckBox
+        android:id="@+id/cbMatematika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matematika" />
+
+    <CheckBox
+        android:id="@+id/cbAnalisaBisnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analisa Bisnis" />
+
+    <Button
+        android:id="@+id/btnPilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih" />
+
+    <TextView
+        android:id="@+id/txtPilihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
